@@ -9,8 +9,10 @@ user's* servers on demand and orchestrate ops between them, all from a web chat.
 
 ## Vision
 
-- **Dashboard + chat in the browser.** Not a CLI. Add servers via a form button
-  *or* by asking the chat to open the form.
+- **Chat-first workspace in the browser.** Not a CLI, not a traditional
+  dashboard. A three-pane layout: chat sessions on the left, active chat in
+  the center, server manager on the right. Add servers via the right pane or
+  ask the chat to open the form.
 - **Multi-user with strict isolation.** Every server belongs to one user. The
   agent can only ever see and touch the servers of the authenticated user.
 - **Credentials never reach the LLM.** Server passwords/keys are entered in a
